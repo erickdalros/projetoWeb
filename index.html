@@ -1,12 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Devok Softwares</title>
+    <title>Interact do Trago</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('showdebola.png') no-repeat center center fixed;
+            background-size: cover;
+            text-align: center;
+            color: #fff;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            font-size: 24px;
+        }
+        .mandamentos-btn {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(255, 165, 0, 0.8);
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            color: #000;
+            border-radius: 5px;
+        }
+        .content {
+            margin-top: 100px;
+            font-size: 30px;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bem vindo ao site</h1>
-    <p>Este é o site show de bola</p>
+    <header>
+        Bem-vindo ao Interact do Trago! 🍻
+    </header>
+    <button class="mandamentos-btn" onclick="mostrarMandamentos()">📜 Mandamentos</button>
+    <div class="content">
+        "Se o copo tá cheio, beba. Se tá vazio, encha de novo!" 🍺
+    </div>
+    <footer>
+        &copy; 2025 Interact do Trago - Todos os direitos reservados (ou quase)
+    </footer>
+    
+    <script>
+        function mostrarMandamentos() {
+            alert("1. Roubar cones é tradição.\n2. Pular em rios é obrigatório.\n3. Cerveja quente é crime.\n4. Música alta e cantoria sempre.\n5. Se negar um desafio? Vergonha eterna!");
+        }
+    </script>
 </body>
 </html>
